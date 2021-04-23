@@ -1,0 +1,87 @@
+Added Component: Designator=C1(CAP.SMD.0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CA3279774"; VariantName = "[No Variations]"
+Added Component: Designator=P1(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=P2(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=P3(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=P4(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=P5(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=P6(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=P7(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=P8(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=P9(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=P10(CONECTOR PWXXS MA-04 VERTICAL P=3.96MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5052040"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0013"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES.SMD.103)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "RS3896245"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=C1-2
+Added Pin To Net: NetName=5V Pin=R1-2
+Added Net: Name=5V
+Added Net: Name=Backlight_A
+Added Net: Name=Backlight_B
+Added Net: Name=DATA0
+Added Net: Name=DATA1
+Added Net: Name=DATA2
+Added Net: Name=DT_CRTL
+Added Net: Name=DT_IN
+Added Net: Name=DT_OUT
+Added Net: Name=FLAG
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Net: Name=GND
+Added Net: Name=LedCascada
+Added Net: Name=Ledcaudal+
+Added Net: Name=LedCaudal-
+Added Net: Name=LedCaudalA
+Added Net: Name=LedCaudalB
+Added Net: Name=LedCaudalC
+Added Net: Name=LedcaudalD
+Added Net: Name=LedcaudalE
+Added Net: Name=LedCaudalIcon
+Added Net: Name=LedJabon
+Added Net: Name=Ledtemp+
+Added Net: Name=LedTemp-
+Added Net: Name=LedtempA
+Added Net: Name=LedTempB
+Added Net: Name=LedTempC
+Added Net: Name=LedtempD
+Added Net: Name=LedTempE
+Added Net: Name=LedTempIcon
+Added Net: Name=LuzPower
+Added Net: Name=NetPROG_1
+Added Net: Name=NetPROG_2
+Added Net: Name=RGB_G
+Added Net: Name=RGB_RB
+Added Pin To Net: NetName=VPP Pin=R1-1
+Added Net: Name=VPP
+Added Class: Name=MAIN-BOARD
+Added Room: Name=MAIN-BOARD

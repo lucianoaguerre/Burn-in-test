@@ -1,0 +1,14 @@
+Added Component: Designator=PROG(PIC ICSP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO4900906"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CON.0017"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VPP Pin=PROG-1
+Added Pin To Net: NetName=5V Pin=PROG-2
+Added Pin To Net: NetName=GND Pin=PROG-3
+Added Pin To Net: NetName=NetPROG_4 Pin=PROG-4
+Added Pin To Net: NetName=NetPROG_4 Pin=U1-17
+Added Net: Name=NetPROG_4
+Added Pin To Net: NetName=NetPROG_5 Pin=PROG-5
+Added Pin To Net: NetName=NetPROG_5 Pin=U1-16
+Added Net: Name=NetPROG_5
+Added Member To Class: ClassName=MAIN-BOARD Member=Component PROG In-Serial Circuit Programmer Header

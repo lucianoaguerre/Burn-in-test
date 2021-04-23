@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=STA8 Pin=U1-1
+Removed Pin From Net: NetName=ACT8 Pin=U1-2
+Removed Pin From Net: NetName=STA9 Pin=U1-3
+Removed Pin From Net: NetName=VIN9 Pin=U1-4
+Removed Pin From Net: NetName=ACT9 Pin=U1-5
+Removed Pin From Net: NetName=STA10 Pin=U1-25
+Removed Pin From Net: NetName=VIN10 Pin=U1-26
+Removed Pin From Net: NetName=ACT10 Pin=U1-27
+Removed Pin From Net: NetName=ACT5 Pin=U1-32
+Removed Pin From Net: NetName=STA6 Pin=U1-35
+Removed Pin From Net: NetName=VIN6 Pin=U1-36
+Removed Pin From Net: NetName=ACT6 Pin=U1-37
+Removed Pin From Net: NetName=STA7 Pin=U1-42
+Removed Pin From Net: NetName=VIN7 Pin=U1-43
+Removed Pin From Net: NetName=ACT7 Pin=U1-44
+Added Pin To Net: NetName=STA6 Pin=PROG-4
+Added Pin To Net: NetName=ACT5 Pin=PROG-5
+Added Pin To Net: NetName=ACT9 Pin=U1-2
+Added Pin To Net: NetName=STA10 Pin=U1-3
+Added Pin To Net: NetName=VIN10 Pin=U1-4
+Added Pin To Net: NetName=ACT10 Pin=U1-5
+Added Pin To Net: NetName=ACT5 Pin=U1-16
+Added Pin To Net: NetName=STA6 Pin=U1-17
+Added Pin To Net: NetName=VIN6 Pin=U1-32
+Added Pin To Net: NetName=ACT6 Pin=U1-35
+Added Pin To Net: NetName=STA7 Pin=U1-36
+Added Pin To Net: NetName=VIN7 Pin=U1-37
+Added Pin To Net: NetName=ACT7 Pin=U1-42
+Added Pin To Net: NetName=STA8 Pin=U1-43
+Added Pin To Net: NetName=RX Pin=U1-44
+Added Pin To Net: NetName=RX Pin=U2-16
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=U1-1
+Added Pin To Net: NetName=TX Pin=U2-17
+Added Net: Name=TX

@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=U2 Old Footprint=ESP32-WROOM-32D New Footprint=ESP32-DevKitC
+Change Component Comment : Designator=U2 Old Comment=ESP32-WROOM-32D New Comment=ESP32-DevKitC
+Change component parameters: Designator = "U2"; Footprint = "ESP32-DevKitC"; UniqueID = "\CSUDVSNW"
+Change component parameters. Clean all parameters for all variants

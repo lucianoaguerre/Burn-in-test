@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [TEST-MODULE.PrjPcb]
+   Generated File[TEST-MODULE-RoundHoles.TXT]
+   Generated File[TEST-MODULE-SlotHoles.TXT]
+   Generated File[TEST-MODULE.LDP]
+   Generated File[TEST-MODULE.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:05:03 On 23/4/2021

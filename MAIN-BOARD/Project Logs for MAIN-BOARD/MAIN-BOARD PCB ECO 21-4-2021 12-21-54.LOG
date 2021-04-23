@@ -1,0 +1,6 @@
+Added Component: Designator=C5(CAP.SMD.0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CA3279774"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=5V Pin=C5-2
+Added Member To Class: ClassName=MAIN-BOARD Member=Component C5 100NF

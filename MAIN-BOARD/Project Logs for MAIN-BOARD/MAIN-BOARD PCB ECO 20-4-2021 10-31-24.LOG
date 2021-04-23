@@ -1,0 +1,63 @@
+Added Component: Designator=C3(CAP-ELEC-8X11)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CA3609372"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CAP.0009"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAP-ELEC-12.5X20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CA3609291"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CAP.0010"; VariantName = "[No Variations]"
+Added Component: Designator=D1(Diode 1N5822)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.DIO.0002"; VariantName = "[No Variations]"
+Added Component: Designator=L1(Inductor Radial DR1213)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "FI1537220"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.IND.0002"; VariantName = "[No Variations]"
+Added Component: Designator=LD1(LED 3MM AZUL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "OP1452620"; VariantName = "[No Variations]"
+Added Component: Designator=P11(VAR-DC-JACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "MC6691355"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES.SMD.221)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "RS3896145"; VariantName = "[No Variations]"
+Added Component: Designator=U2(ESP32-WROOM-32D)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "RF9301435"; VariantName = "[No Variations]"
+Added Component: Designator=U3(LM2576T-5.0)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CI2707258H"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.SEM.0002"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=5V Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=D1-A
+Added Pin To Net: NetName=GND Pin=LD1-K
+Added Pin To Net: NetName=GND Pin=P11-2
+Added Pin To Net: NetName=GND Pin=P11-3
+Added Pin To Net: NetName=5V Pin=R2-2
+Added Pin To Net: NetName=GND Pin=U3-3
+Added Pin To Net: NetName=5V Pin=U3-4
+Added Pin To Net: NetName=GND Pin=U3-5
+Added Pin To Net: NetName=12V Pin=C3-1
+Added Pin To Net: NetName=12V Pin=P11-1
+Added Pin To Net: NetName=12V Pin=U3-1
+Added Net: Name=12V
+Added Pin To Net: NetName=NetD1_K Pin=D1-K
+Added Pin To Net: NetName=NetD1_K Pin=L1-2
+Added Pin To Net: NetName=NetD1_K Pin=U3-2
+Added Net: Name=NetD1_K
+Added Pin To Net: NetName=NetLD1_A Pin=LD1-A
+Added Pin To Net: NetName=NetLD1_A Pin=R2-1
+Added Net: Name=NetLD1_A
+Added Member To Class: ClassName=MAIN-BOARD Member=Component C3 100UFX35V
+Added Member To Class: ClassName=MAIN-BOARD Member=Component C4 1000UFX25V
+Added Member To Class: ClassName=MAIN-BOARD Member=Component D1 1N5822
+Added Member To Class: ClassName=MAIN-BOARD Member=Component L1 330UHY
+Added Member To Class: ClassName=MAIN-BOARD Member=Component LD1 LED 3MM AZUL
+Added Member To Class: ClassName=MAIN-BOARD Member=Component P11 DC POWER JACK
+Added Member To Class: ClassName=MAIN-BOARD Member=Component R2 220E 5% 0805 1/8W RES.SMD
+Added Member To Class: ClassName=MAIN-BOARD Member=Component U2 ESP32-WROOM-32D
+Added Member To Class: ClassName=MAIN-BOARD Member=Component U3 LM2576T-5.0
