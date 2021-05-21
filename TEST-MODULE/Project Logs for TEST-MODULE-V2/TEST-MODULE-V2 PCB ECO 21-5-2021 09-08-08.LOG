@@ -1,0 +1,7 @@
+Added Component: Designator=C6(CAP.SMD.0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CA3279774"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.CAP.0008"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=VIN Pin=C6-2
+Added Member To Class: ClassName=TEST-MODULE-V2 Member=Component C6 100NFX50V

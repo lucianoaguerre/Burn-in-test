@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=VIN Pin=U1-8
+Added Member To Class: ClassName=TEST-MODULE-V2 Member=Component R10 10K
+Added Member To Class: ClassName=TEST-MODULE-V2 Member=Component R11 10K
+Added Member To Class: ClassName=TEST-MODULE-V2 Member=Component R12 10K

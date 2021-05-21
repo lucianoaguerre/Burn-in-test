@@ -1,0 +1,20 @@
+Change Component Footprint: Designator=LD1 Old Footprint=LED 3MM AZUL New Footprint=LED-5MM-ALTO-9-AZUL
+Change Component Footprint: Designator=LD4 Old Footprint=LED 3MM AZUL New Footprint=LED-5MM-ALTO-9-AZUL
+Change Component Footprint: Designator=LD3 Old Footprint=LED 3MM ROJO New Footprint=LED-5MM-ALTO-9-ROJO
+Change Component Footprint: Designator=LD2 Old Footprint=LED 3MM VERDE New Footprint=LED-5MM-ALTO-9-VERDE
+Change Component Comment : Designator=LD1 Old Comment=LED 3MM AZUL New Comment=LED 5MM AZUL
+Change Component Comment : Designator=LD4 Old Comment=LED 3MM AZUL New Comment=LED 5MM AZUL
+Change Component Comment : Designator=LD3 Old Comment=LED 3MM ROJO New Comment=LED 5MM ROJO
+Change Component Comment : Designator=LD2 Old Comment=LED 3MM VERDE New Comment=LED 5MM VERDE
+Change component parameters: Designator = "LD1"; Footprint = "LED-5MM-ALTO-9-AZUL"; UniqueID = "\QRTWTPSG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "LD2"; Footprint = "LED-5MM-ALTO-9-VERDE"; UniqueID = "\BOAKMOMH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "LD3"; Footprint = "LED-5MM-ALTO-9-ROJO"; UniqueID = "\TTPIUCET"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "LD4"; Footprint = "LED-5MM-ALTO-9-AZUL"; UniqueID = "\CBLFJPHA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"

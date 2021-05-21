@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=SW1 Old Footprint=TACT-SWITCH-THT-4C-06X06-4.3MM New Footprint=TACT-SWITCH-THT-4C-06X06-9.5MM
+Change Component Comment : Designator=SW1 Old Comment=TACT-SWITCH New Comment=TACT-SWITCH-THT-4C-06X06(9.5MM)-HIGHLY
+Change component parameters: Designator = "SW1"; Footprint = "TACT-SWITCH-THT-4C-06X06-9.5MM"; UniqueID = "\AQOXPDHR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = "SW5702120"; VariantName = "[No Variations]"

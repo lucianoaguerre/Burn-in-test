@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=STA Pin=P1-2
-Removed Pin From Net: NetName=ACT Pin=P1-3
-Removed Pin From Net: NetName=VIN Pin=P1-4
-Added Pin To Net: NetName=ACT Pin=P1-2
-Added Pin To Net: NetName=VIN Pin=P1-3
-Added Pin To Net: NetName=STA Pin=P1-4

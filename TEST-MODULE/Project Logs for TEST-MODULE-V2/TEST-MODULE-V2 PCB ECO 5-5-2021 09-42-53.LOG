@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=P6 Old Footprint=VAR-DC-JACK New Footprint=VAR-DC-JACK - VERT
+Change component parameters: Designator = "P6"; Footprint = "VAR-DC-JACK - VERT"; UniqueID = "\YURVPYMV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"

@@ -1,0 +1,9 @@
+Added Component: Designator=P5(IDC-HE-THT-1X4-P2.54MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "CO5001085"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. SYC"; Value = "PB04S"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=rele_out Pin=P5-1
+Added Pin To Net: NetName=rele_out Pin=P5-2
+Added Pin To Net: NetName=GND Pin=P5-3
+Added Pin To Net: NetName=GND Pin=P5-4
+Added Member To Class: ClassName=TEST-MODULE-V2 Member=Component P5 IDC-HE-THT-1X4-P2.54MM

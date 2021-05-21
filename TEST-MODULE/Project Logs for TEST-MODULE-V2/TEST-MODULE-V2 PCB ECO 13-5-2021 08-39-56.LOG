@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=C4 Old Footprint=CAP-ELEC-10X16 New Footprint=CAP-ELEC-10X13
+Change component parameters: Designator = "C4"; Footprint = "CAP-ELEC-10X13"; UniqueID = "\ISNUDYGW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = "CA3609281A"; VariantName = "[No Variations]"
