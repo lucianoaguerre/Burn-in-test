@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetQ1_1 Pin=RELE-1
+Removed Pin From Net: NetName=12V Pin=RELE-2
+Removed Pin From Net: NetName=12V Pin=RELE-3
+Removed Pin From Net: NetName=rele_out Pin=RELE-4
+Removed Member From Class: ClassName=TEST-MODULE-V3 Member=RELE
+Added Component: Designator=RELE1(RELAY 12V 12A CHICO)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. SYC"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ1_1 Pin=RELE1-1
+Added Pin To Net: NetName=12V Pin=RELE1-2
+Added Pin To Net: NetName=12V Pin=RELE1-3
+Added Pin To Net: NetName=rele_out Pin=RELE1-4
+Added Member To Class: ClassName=TEST-MODULE-V3 Member=Component RELE1 Relay simple inversor 12V 12A

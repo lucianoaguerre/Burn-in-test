@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=12V Pin=RELE1-3
+Removed Pin From Net: NetName=rele_out Pin=RELE1-4
+Added Pin To Net: NetName=rele_out Pin=RELE1-3
+Added Pin To Net: NetName=12V Pin=RELE1-4

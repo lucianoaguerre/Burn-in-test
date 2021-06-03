@@ -1,0 +1,6 @@
+Added Component: Designator=U2(DPAK)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=3V3 Pin=U2-2
+Added Pin To Net: NetName=NetC3_2 Pin=U2-3
+Added Member To Class: ClassName=TEST-MODULE-V3 Member=Component U2 LD1117S33TR SMD DPAK 0.8A 3.3V LDO LINEAR REGULATOR

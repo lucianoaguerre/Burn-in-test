@@ -1,0 +1,48 @@
+Removed Pin From Net: NetName=ACT Pin=DZ2-A
+Removed Pin From Net: NetName=VIN Pin=R11-1
+Removed Pin From Net: NetName=GND Pin=R12-1
+Removed Pin From Net: NetName=VIN Pin=R12-2
+Removed Pin From Net: NetName=NetQ1_3 Pin=R14-1
+Removed Pin From Net: NetName=12V Pin=SW1-1
+Removed Member From Class: ClassName=TEST-MODULE-V2 Member=DZ1
+Removed Member From Class: ClassName=TEST-MODULE-V2 Member=DZ2
+Removed Member From Class: ClassName=TEST-MODULE-V2 Member=R11
+Removed Member From Class: ClassName=TEST-MODULE-V2 Member=R12
+Change Component Footprint: Designator=R9 Old Footprint=RES.SMD.103 New Footprint=RES.SMD.333
+Change Component Footprint: Designator=R10 Old Footprint=RES.SMD.103 New Footprint=RES.SMD.562
+Change Component Comment : Designator=R10 Old Comment=10K New Comment=5.6K
+Change Component Comment : Designator=R9 Old Comment=10K New Comment=33K
+Change component parameters: Designator = "R9"; Footprint = "RES.SMD.333"; UniqueID = "\LAPSAFDC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = "RS3896275"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "COD. FV"; Value = "CE.RES.0015"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10"; Footprint = "RES.SMD.562"; UniqueID = "\UTWKSPJN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = "RS3896230"; VariantName = "[No Variations]"
+Added Component: Designator=Q4(NPN.SMD.SOT23)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "TR1723020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.TRA.0002"; VariantName = "[No Variations]"
+Added Component: Designator=R16(RES.SMD.103)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "RS3896245"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "COD. FV"; Value = "CE.RES.0014"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Q4-2
+Added Pin To Net: NetName=NetQ1_3 Pin=Q4-3
+Added Pin To Net: NetName=VIN Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=VIN Pin=R10-2
+Added Pin To Net: NetName=NetQ1_3 Pin=R13-1
+Added Pin To Net: NetName=12V Pin=R13-2
+Added Pin To Net: NetName=ACT Pin=R14-1
+Added Pin To Net: NetName=ACT Pin=R16-1
+Added Pin To Net: NetName=3V3 Pin=R16-2
+Added Pin To Net: NetName=GND Pin=SW1-4
+Added Pin To Net: NetName=NetQ4_1 Pin=Q4-1
+Added Pin To Net: NetName=NetQ4_1 Pin=R14-2
+Added Pin To Net: NetName=NetQ4_1 Pin=SW1-2
+Added Net: Name=NetQ4_1
+Change Class Name : Old Net Name=TEST-MODULE-V2 New Net Name=TEST-MODULE-V3
+Added Member To Class: ClassName=TEST-MODULE-V3 Member=Component Q4 BC817
+Added Member To Class: ClassName=TEST-MODULE-V3 Member=Component R16 10K
+Change Room Scope: Old Scope=InComponentClass('TEST-MODULE-V2') New Scope=InComponentClass('TEST-MODULE-V3')

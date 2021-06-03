@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=rele_out Pin=P5-1
+Removed Pin From Net: NetName=rele_out Pin=P5-2
+Removed Pin From Net: NetName=GND Pin=P5-3
+Removed Pin From Net: NetName=GND Pin=P5-4
+Removed Member From Class: ClassName=TEST-MODULE-V3 Member=P5

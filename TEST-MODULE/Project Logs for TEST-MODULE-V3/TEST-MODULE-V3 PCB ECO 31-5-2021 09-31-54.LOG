@@ -1,0 +1,4 @@
+Added Component: Designator=R13(RES-CERAMICA-15W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COD. ELEMON"; Value = "RS4176075"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=TEST-MODULE-V3 Member=Component R13 10K
