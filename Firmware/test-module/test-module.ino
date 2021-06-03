@@ -105,12 +105,22 @@ void setup()
 {
   hardware_cfg();
   Serial.begin(115200); 
-  WiFi.disconnect();
-  EEPROM.begin(512);
-  delay(10);
-  wifi_provisioning();
+  //WiFi.disconnect();
+  //EEPROM.begin(512);
+  //delay(10);
+  //wifi_provisioning();
 
   cycle_state = 0;
+  Serial.println("Setup terminado");
+  
+  Serial.println("Secuencia de inicio");
+  digitalWrite(LED_RED, HIGH);
+  delay(300);
+  digitalWrite(LED_RED, LOW);
+  digitalWrite(LED_GREEN, HIGH);
+  delay(300);
+  digitalWrite(LED_GREEN, LOW);
+ 
 }
 
 /******************************************************************************
@@ -123,10 +133,16 @@ void loop()
       {
         case 0:
               read_adc();
+              Serial.print(tension_entrada);
               if (tension_entrada < MIN_VOLT)
               {
                 Serial.println("error");
                 cycle_state = 6;
+              }
+              else
+              {
+                Serial.print("Tension ok comienza el ciclo");
+                cycle_state = 1;
               }
               break;
 
