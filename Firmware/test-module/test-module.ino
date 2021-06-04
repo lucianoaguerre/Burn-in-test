@@ -11,6 +11,13 @@
 *******************************************************************************/
 
 /******************************************************************************
+* 
+* https://randomnerdtutorials.com/esp32-esp-now-wi-fi-web-server/
+* https://randomnerdtutorials.com/esp-now-many-to-one-esp32/
+* 
+*******************************************************************************/
+
+/******************************************************************************
 * Libraries needed
 * *****************************************************************************
 * AsyncHTTPRequest_Generic
@@ -267,10 +274,10 @@ void hardware_cfg (void)
 
 void read_adc (void)
 {
-    float factor = 2048 / 13.2;
+    float factor = 105.315;     // (2^11 bits) / {(33k/5k6) * 3.3v }
     float adc_tension = 0;
     int adc_raw = adc1_get_raw(ADC1_CHANNEL_4);
-    adc_tension = (float) adc_raw / factor;  // (2 x 3.7V /4095)
+    adc_tension = (float) adc_raw / factor;  
     if (tension_entrada == 0)
     {
       tension_entrada = adc_tension;
