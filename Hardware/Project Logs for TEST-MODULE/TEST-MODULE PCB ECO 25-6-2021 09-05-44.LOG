@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=3V3 Pin=C4-1
+Removed Pin From Net: NetName=GND Pin=C4-2
+Change Component Footprint: Designator=C4 Old Footprint=CAP-ELEC-10X13 New Footprint=CAP-ELEC-SMD
+Change Component Comment : Designator=C4 Old Comment=470UFX25V New Comment=100UFX16V
+Change component parameters: Designator = "C4"; Footprint = "CAP-ELEC-SMD"; UniqueID = "\UAGBTOKP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = "CA3629130"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "COD. FV"; Value = "CE.CAP.0006"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=3V3 Pin=C4-2

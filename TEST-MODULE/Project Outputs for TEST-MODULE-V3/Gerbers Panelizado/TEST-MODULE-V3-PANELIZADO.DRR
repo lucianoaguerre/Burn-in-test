@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: TEST-MODULE-V3-PANELIZADO.PcbDoc   23/6/2021  09:19:53
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : TEST-MODULE-V3-PANELIZADO-RoundHoles.TXT
+ASCII SlotHoles File : TEST-MODULE-V3-PANELIZADO-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      32mil (0.8mm)                                             Round             198       PTH        59.51inch (1511.45mm)
+T2      32mil (0.8mm)                                             Slot              18        PTH        39.77inch (1010.16mm)
+T3      39mil (1mm)                                               Round             162       PTH        73.30inch (1861.83mm)
+T4      47mil (1.2mm)                                             Round             12        PTH        19.45inch (493.94mm)
+T5      59mil (1.5mm)                                             Round             4         PTH        24.54inch (623.32mm)
+T6      79mil (2mm)                                               Round             12        PTH        20.62inch (523.87mm)
+T7      118mil (3mm)                                              Round             24        PTH        36.77inch (934.00mm)
+T8      157mil (4mm)                                              Round             4         PTH        25.64inch (651.21mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              434
+
+Total Processing Time (hh:mm:ss) : 00:00:00
