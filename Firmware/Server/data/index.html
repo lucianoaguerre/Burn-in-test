@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Pixart Burn-In Test</title>
+      <meta name="description" content="Burn-In Test dashboard">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="/index.css">
+   </head>
+
+   <body onload="getData()">
+   <!--
+     <div>
+		  Radio:<br>
+			<input type="text" id="ledNumber" name="ledNumber" value="10" checked><br>
+			<input type="radio" id="ledOn" name="status" value="true" checked>
+			<label for="ledOn">ON</label><br>
+			<input type="radio" id="ledOff" name="status" value="false">
+			<label for="ledOff">OFF</label><br>
+			<button type="button" onclick="sendData()">Send data</button>
+		</div>
+
+    <label id="receivedText00"/>
+    -->
+		<div>
+			<br>
+			<button type="button" onclick="getData()">Get Data!</button>
+		</div>
+    <div>
+      <br> PIXART BURN IN TEST DASHBOARD
+
+    </div>
+
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>      </th>
+                <th>  00  </th>
+                <th>  01  </th>
+                <th>  02  </th>
+                <th>  03  </th>
+                <th>  04  </th>
+                <th>  05  </th>
+                <th>  06  </th>
+                <th>  07  </th>
+                <th>  08  </th>
+                <th>  09  </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <th>00</th>
+              <th><div class="filled-circle" id="circle00"></div></th>
+              <th><div class="filled-circle" id="circle01"></div></th>
+              <th><div class="filled-circle" id="circle02"></div></th>
+              <th><div class="filled-circle" id="circle03"></div></th>
+              <th><div class="filled-circle" id="circle04"></div></th>
+              <th><div class="filled-circle" id="circle05"></div></th>
+              <th><div class="filled-circle" id="circle06"></div></th>
+              <th><div class="filled-circle" id="circle07"></div></th>
+              <th><div class="filled-circle" id="circle08"></div></th>
+              <th><div class="filled-circle" id="circle09"></div></th>
+            </tr>
+            <tr>
+              <th>10</th>
+              <th><div class="filled-circle" id="circle10"></div></th>
+              <th><div class="filled-circle" id="circle11"></div></th>
+              <th><div class="filled-circle" id="circle12"></div></th>
+              <th><div class="filled-circle" id="circle13"></div></th>
+              <th><div class="filled-circle" id="circle14"></div></th>
+              <th><div class="filled-circle" id="circle15"></div></th>
+              <th><div class="filled-circle" id="circle16"></div></th>
+              <th><div class="filled-circle" id="circle17"></div></th>
+              <th><div class="filled-circle" id="circle18"></div></th>
+              <th><div class="filled-circle" id="circle19"></div></th>
+            </tr>
+            <tr>
+              <th>20</th>
+              <th><div class="filled-circle" id="circle20"></div></th>
+              <th><div class="filled-circle" id="circle21"></div></th>
+              <th><div class="filled-circle" id="circle22"></div></th>
+              <th><div class="filled-circle" id="circle23"></div></th>
+              <th><div class="filled-circle" id="circle24"></div></th>
+              <th><div class="filled-circle" id="circle25"></div></th>
+              <th><div class="filled-circle" id="circle26"></div></th>
+              <th><div class="filled-circle" id="circle27"></div></th>
+              <th><div class="filled-circle" id="circle28"></div></th>
+              <th><div class="filled-circle" id="circle29"></div></th>
+            </tr>
+            <tr>
+              <th>30</th>
+              <th><div class="filled-circle" id="circle30"></div></th>
+              <th><div class="filled-circle" id="circle31"></div></th>
+              <th><div class="filled-circle" id="circle32"></div></th>
+              <th><div class="filled-circle" id="circle33"></div></th>
+              <th><div class="filled-circle" id="circle34"></div></th>
+              <th><div class="filled-circle" id="circle35"></div></th>
+              <th><div class="filled-circle" id="circle36"></div></th>
+              <th><div class="filled-circle" id="circle37"></div></th>
+              <th><div class="filled-circle" id="circle38"></div></th>
+              <th><div class="filled-circle" id="circle39"></div></th>
+            </tr>
+            <tr>
+              <th>40</th>
+              <th><div class="filled-circle" id="circle40"></div></th>
+              <th><div class="filled-circle" id="circle41"></div></th>
+              <th><div class="filled-circle" id="circle42"></div></th>
+              <th><div class="filled-circle" id="circle43"></div></th>
+              <th><div class="filled-circle" id="circle44"></div></th>
+              <th><div class="filled-circle" id="circle45"></div></th>
+              <th><div class="filled-circle" id="circle46"></div></th>
+              <th><div class="filled-circle" id="circle47"></div></th>
+              <th><div class="filled-circle" id="circle48"></div></th>
+              <th><div class="filled-circle" id="circle49"></div></th>
+            </tr>
+            <tr>
+              <th>50</th>
+              <th><div class="filled-circle" id="circle50"></div></th>
+              <th><div class="filled-circle" id="circle51"></div></th>
+              <th><div class="filled-circle" id="circle52"></div></th>
+              <th><div class="filled-circle" id="circle53"></div></th>
+              <th><div class="filled-circle" id="circle54"></div></th>
+              <th><div class="filled-circle" id="circle55"></div></th>
+              <th><div class="filled-circle" id="circle56"></div></th>
+              <th><div class="filled-circle" id="circle57"></div></th>
+              <th><div class="filled-circle" id="circle58"></div></th>
+              <th><div class="filled-circle" id="circle59"></div></th>
+            </tr>
+            <tr>
+              <th>60</th>
+              <th><div class="filled-circle" id="circle60"></div></th>
+              <th><div class="filled-circle" id="circle61"></div></th>
+              <th><div class="filled-circle" id="circle62"></div></th>
+              <th><div class="filled-circle" id="circle63"></div></th>
+              <th><div class="filled-circle" id="circle64"></div></th>
+              <th><div class="filled-circle" id="circle65"></div></th>
+              <th><div class="filled-circle" id="circle66"></div></th>
+              <th><div class="filled-circle" id="circle67"></div></th>
+              <th><div class="filled-circle" id="circle68"></div></th>
+              <th><div class="filled-circle" id="circle69"></div></th>
+            </tr>
+            <tr>
+              <th>70</th>
+              <th><div class="filled-circle" id="circle70"></div></th>
+              <th><div class="filled-circle" id="circle71"></div></th>
+              <th><div class="filled-circle" id="circle72"></div></th>
+              <th><div class="filled-circle" id="circle73"></div></th>
+              <th><div class="filled-circle" id="circle74"></div></th>
+              <th><div class="filled-circle" id="circle75"></div></th>
+              <th><div class="filled-circle" id="circle76"></div></th>
+              <th><div class="filled-circle" id="circle77"></div></th>
+              <th><div class="filled-circle" id="circle78"></div></th>
+              <th><div class="filled-circle" id="circle79"></div></th>
+            </tr>
+            <tr>
+              <th>80</th>
+              <th><div class="filled-circle" id="circle80"></div></th>
+              <th><div class="filled-circle" id="circle81"></div></th>
+              <th><div class="filled-circle" id="circle82"></div></th>
+              <th><div class="filled-circle" id="circle83"></div></th>
+              <th><div class="filled-circle" id="circle84"></div></th>
+              <th><div class="filled-circle" id="circle85"></div></th>
+              <th><div class="filled-circle" id="circle86"></div></th>
+              <th><div class="filled-circle" id="circle87"></div></th>
+              <th><div class="filled-circle" id="circle88"></div></th>
+              <th><div class="filled-circle" id="circle89"></div></th>
+            </tr>
+            <tr>
+              <th>90</th>
+              <th><div class="filled-circle" id="circle90"></div></th>
+              <th><div class="filled-circle" id="circle91"></div></th>
+              <th><div class="filled-circle" id="circle92"></div></th>
+              <th><div class="filled-circle" id="circle93"></div></th>
+              <th><div class="filled-circle" id="circle94"></div></th>
+              <th><div class="filled-circle" id="circle95"></div></th>
+              <th><div class="filled-circle" id="circle96"></div></th>
+              <th><div class="filled-circle" id="circle97"></div></th>
+              <th><div class="filled-circle" id="circle98"></div></th>
+              <th><div class="filled-circle" id="circle99"></div></th>
+            </tr>
+            <!-- and so on... -->
+        </tbody>
+    </table>
+
+	</body>
+
+    <script type="text/javascript" src="/index.js"></script>
+</html>

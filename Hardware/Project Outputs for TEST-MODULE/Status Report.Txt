@@ -1,13 +1,9 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [TEST-MODULE.PrjPcb]
-   Generated File[TEST-MODULE-RoundHoles.TXT]
-   Generated File[TEST-MODULE-SlotHoles.TXT]
-   Generated File[TEST-MODULE.LDP]
-   Generated File[TEST-MODULE.DRR]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [TEST-MODULE.PrjPcb]
 
 
-Files Generated   : 4
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 10:46:22 On 28/6/2021
+Finished Output Generation At 12:00:35 On 1/7/2021

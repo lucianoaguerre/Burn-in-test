@@ -107,146 +107,82 @@ GenerateClassCluster=0
 DocumentUniqueId=DMYGJEJU
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.REP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-DETAILS.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-RoundHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE-SlotHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GPB
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GPT
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.REP
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for TEST-MODULE\TEST-MODULE.RUL
 DItemRevisionGUID=
 
@@ -673,6 +609,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=Filter
+Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1397|FormHeight=856|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100|COD. ELEMON=100|COD. SYC=100
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
