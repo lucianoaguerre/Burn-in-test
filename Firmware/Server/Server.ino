@@ -17,6 +17,7 @@
 #include <SPIFFS.h>
 #include <WebSocketsServer.h>
 #include <ArduinoJson.h>
+#include <BLEDevice.h>
 
 #include "config.h"  // Sustituir con datos de vuestra red
 #include "API.hpp"
@@ -24,6 +25,7 @@
 #include "Server.hpp"
 #include "ESP32_Utils.hpp"
 #include "ESP32_Utils_AWS.hpp"
+#include "BLE_Utils.hpp"
 
 /******************************************************************************
 * Variable Definitions
